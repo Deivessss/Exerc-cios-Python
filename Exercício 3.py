@@ -56,7 +56,7 @@ def servico_extra(): #função para escolher o serviço extra
             print('Erro. Por favor, entre apenas com valor númerico (1, 2 ou 0).')
 
 
-print('Bem vindo a Copiadora do Davi Franklin de Melo')
+print('Bem vindo a Copiadora do Davi')
 
 servico = escolha_servico()
 pagina = num_pagina()
