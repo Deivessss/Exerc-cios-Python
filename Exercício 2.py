@@ -4,24 +4,18 @@ print('Bem-vindo a Loja de gelados do Davi!')
 while True:
     # while True, para só encerrar o programa quando o usuário tiver pedido tudo.
     while True:
-        # while com try e except para garantir que o usuário digite o sabor válido.
-        try:
-            sabor = input('Entre com o sabor desejado (CP/AC): ').upper()
-            if sabor == 'CP' or sabor == 'AC':
-                break
-            else:
-                print('Sabor inválido. Tente novamente.\n')
-        except:
+        # while True para garantir que o usuário digite o sabor válido.
+        sabor = input('Entre com o sabor desejado (CP/AC): ').upper()
+        if sabor == 'CP' or sabor == 'AC':
+            break
+        else:
             print('Sabor inválido. Tente novamente.\n')
     while True:
-        # while com try e except para garantir que o usuário digite o sabor válido.
-        try:
-            tamanho = input('Entre com o tamanho desejado (P/M/G): ').upper()
-            if tamanho == 'P' or tamanho == 'M' or tamanho == 'G':
-                break
-            else:
-                print('Tamanho inválido. Tente novamente.\n')
-        except:
+        # while para garantir que o usuário digite o sabor válido.
+        tamanho = input('Entre com o tamanho desejado (P/M/G): ').upper()
+        if tamanho == 'P' or tamanho == 'M' or tamanho == 'G':
+            break
+        else:
             print('Tamanho inválido. Tente novamente.\n')
 
     if sabor == 'CP':  # if e elif para as diferentes combinações de sabores e tamanhos.
