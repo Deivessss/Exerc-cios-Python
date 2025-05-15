@@ -50,4 +50,3 @@ while True:
         break
 
 print(f'\nValor total a ser pago: R${acumulador:.2f}')
-# acredito que ficaria mais organizado utilizando funções(def), mas, como o exercício menciona até a aula 4, não usarei.
